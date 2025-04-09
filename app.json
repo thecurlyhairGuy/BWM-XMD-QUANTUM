@@ -1,4 +1,6 @@
 
+
+
 {
   "name": "BWM-XMD-QUANTUM",
   "description": "Best WhatsApp bot developed by Ibrahim Adams",
@@ -16,11 +18,6 @@
     "AUTO_REJECT_CALL": {
       "description": "Enter yes for your bot to auto react",
       "value": "no",
-      "required": false
-    },
-    "ANTICALL": {
-      "description": "Enter yes for your bot to auto reject calls",
-      "value": "no", 
       "required": false
     },
     "AUTO_BIO": {
@@ -78,6 +75,11 @@
       "value": "💀,🫩,😂,🫧,🙂‍↔️",
       "required": false 
     },
+    "AUTO_REACT": {
+      "description": "Enter your auto react messages",
+      "value": "no",
+      "required": false 
+    },
    "AUTO_REACT_STATUS": {
       "description": "Enter yes for your bot to auto like status",
       "value": "yes",
@@ -110,7 +112,7 @@
     },
    "ANTIDELETE_RECOVER_CONVENTION": {
       "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },	  
     "GROUPANTILINK": {
@@ -118,13 +120,18 @@
       "value": "no",
       "required": false
     },
-   "GROUPANTILINK_DELETE_ONLY": {
-      "description": "Enable anti-link in groups (yes/no)",
-      "value": "no",
-      "required": false
-    },	  
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "WELCOME_MESSAGE": {
+      "description": "Enable welcoming message in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "GOODBYE_MESSAGE": {
+      "description": "Enable  goodbye in groups (yes/no)",
       "value": "no",
       "required": false
     },
