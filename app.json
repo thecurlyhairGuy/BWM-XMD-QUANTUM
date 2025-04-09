@@ -25,7 +25,7 @@
     },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_READ_STATUS": {
@@ -55,27 +55,27 @@
     },
     "PUBLIC_MODE": {
       "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Enter your Heroku API key to be able to control your vars",
-      "value": "",
+      "value": "HRKU-9f78f19e-1164-4469-9409-677280018fc5",
       "required": true 
     },
     "HEROKU_APP_NAME": {
       "description": "Enter your Heroku app name to be able to control vars",
-      "value": "",
+      "value": "𝗧𝗛𝗘 𝗖𝗨𝗥𝗟𝗬𝗛𝗔𝗜𝗥 𝗚𝗨𝗬 ",
       "required": true 
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "254xxxxxxxxx",
+      "value": "2347086606304",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
-      "value": "🚀,🌎",
+      "value": "💀,🫩,😂,🫧,🙂‍↔️",
       "required": false 
     },
    "AUTO_REACT_STATUS": {
@@ -85,7 +85,7 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "𝗧𝗛𝗘 𝗖𝗨𝗥𝗟𝗬𝗛𝗔𝗜𝗥 𝗚𝗨𝗬 ",
       "required": false
     },
     "SESSION_ID": {
@@ -115,7 +115,7 @@
     },	  
     "GROUPANTILINK": {
       "description": "Enable anti-link in groups (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
    "GROUPANTILINK_DELETE_ONLY": {
