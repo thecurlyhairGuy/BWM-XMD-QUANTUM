@@ -20,7 +20,7 @@
     },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_READ_STATUS": {
@@ -65,7 +65,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
+      "value": "911",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
